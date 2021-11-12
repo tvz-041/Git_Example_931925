@@ -2,17 +2,6 @@
 
 #include "SomeClass.h"
 
-SomeClass::SomeClass(const bool someBoolData)
+SomeClass::SomeClass()
 {
-	someBoolData_ = someBoolData;
-}
-
-int SomeClass::someBoolData() const
-{
-	return someBoolData_;
-}
-
-void SomeClass::printSomeBoolData() const
-{
-	std::cout << someBoolData_;
 }
