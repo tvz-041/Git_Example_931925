@@ -5,18 +5,14 @@
 class SomeClass
 {
 public:
-	SomeClass(const int someIntData, const bool someBoolData);
+    SomeClass(const int someIntData);
 	~SomeClass() = default;
 
-	int someIntData() const;
-	int someBoolData() const;
-
-	void printSomeIntData() const;
-	void printSomeBoolData() const;
+    int someIntData() const;
+    void printSomeIntData() const;
 
 private:
-	int someIntData_ = 0;
-	bool someBoolData_ = false;
+    int someIntData_ = 0;
 };
 
 #endif // SOMECLASS_H
